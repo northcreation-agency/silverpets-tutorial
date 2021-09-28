@@ -1,0 +1,8 @@
+---
+Name: mytheme
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - 'silverpets'
+    - '$public'
+    - '$default'
