@@ -1,12 +1,25 @@
-.page-title-area{
-	background-color: #282828;
-	background-position:  center right;
-	background-repeat: no-repeat; 
-	background-size: cover;
+.page-title-area {
+    background-color: #282828;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.breadcrumb{
-	margin-top:5px !important;
+
+.breadcrumb {
+    margin-top: 5px !important;
 }
-#ForgotPassword{
-	width: 100%;
+
+#ForgotPassword {
+    width: 100%;
+}
+
+.bg-color .menu-link:hover {
+    color: #fff;
+}
+
+html .hero-heading {
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }

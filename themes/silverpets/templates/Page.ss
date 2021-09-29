@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="$ThemeDir/css/dark.css" type="text/css" />
     <link rel="stylesheet" href="$ThemeDir/css/kbstyle.css" type="text/css" />
     <!-- Pet Demo Specific Stylesheet -->
-    <link rel="stylesheet" href="demos/pet/pet.css" type="text/css" />
-    <link rel="stylesheet" href="demos/pet/$ThemeDir/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="$ThemeDir/demos/pet/pet.css" type="text/css" />
+    <link rel="stylesheet" href="$ThemeDir/demos/pet/css/fonts.css" type="text/css" />
 
     <link rel="stylesheet" href="$ThemeDir/css/font-icons.css" type="text/css" />
     <link rel="stylesheet" href="$ThemeDir/css/animate.css" type="text/css" />
@@ -44,8 +44,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="$ThemeDir/images/pet-logo_white.png"><img src="$ThemeDir/images/pet-logo.png" alt="Canvas Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="$ThemeDir/images/pet-logo_white@2x.png"><img src="$ThemeDir/images/pet-logo@2x.png" alt="Canvas Logo"></a>
+                        <a href="/" class="standard-logo" data-dark-logo="$ThemeDir/images/pet-logo_white.png"><img src="$ThemeDir/images/pet-logo.png" alt="Canvas Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="$ThemeDir/images/pet-logo_white@2x.png"><img src="$ThemeDir/images/pet-logo@2x.png" alt="Canvas Logo"></a>
                     </div><!-- #logo end -->
 
                     <div id="primary-menu-trigger">
@@ -99,9 +99,20 @@
     <!-- Content
     ============================================= -->
     <section id="content">
-        $Layout
-        $Form
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" >Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+            <div class="content-wrap">
+                <p>Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Nullam quis ante. Ut a nisl id ante tempus hendrerit. In ac felis quis tortor malesuada pretium. Quisque id mi. Proin magna. Etiam imperdiet imperdiet orci. Nullam cursus lacinia erat. Nullam sagittis. Morbi nec metus.</p>
 
+                <p>Etiam imperdiet imperdiet orci. Proin faucibus arcu quis ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Vestibulum suscipit nulla quis orci. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse potenti. Pellentesque posuere. Vestibulum eu odio. Praesent venenatis metus at tortor pulvinar varius. Aenean imperdiet.</p>
+
+                <p>Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Fusce vulputate eleifend sapien. Phasellus accumsan cursus velit. Ut a nisl id ante tempus hendrerit.</p>
+            </div>
+        </div>
     </section><!-- #content end -->
 
 
